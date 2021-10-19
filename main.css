@@ -12,6 +12,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 .header .signin,
 .footer .signin,
@@ -68,4 +69,8 @@ h1 {
 .footer {
   margin: 0 15%;
   padding-bottom: 4%;
+}
+#right svg {
+  position: relative;
+  bottom: -4px;
 }
