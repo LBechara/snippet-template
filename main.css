@@ -8,11 +8,13 @@ body {
   margin: 0% 15%;
   margin-top: 2%;
 }
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
 }
 .header .signin,
+.footer .signin,
 .header .btn {
   margin-left: 20px;
 }
@@ -23,32 +25,47 @@ body {
   padding: 15px;
   font-family: "Poppins", sans-serif;
   border-radius: 4px;
+  cursor: pointer;
 }
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  padding: 2rem 2rem 0 2rem;
+  margin-bottom: 3rem;
+}
+.snipper {
+  text-align: center;
+}
 .codeimg {
-  height: 460px;
   width: 100%;
-  background-image: url(./assets/snippetImage.png);
-  background-size: contain;
 }
 .containerbelow {
   background-color: #fff;
-  display: flex;
 }
 .contentbelow {
-  margin: 2% 15%;
+  display: flex;
+  padding: 4% 15%;
+  align-items: center;
+  justify-content: space-between;
+}
+.textbelow {
+  width: 60%;
 }
 .img-custom {
-  height: 100px;
-  height: 100px;
-  background-image: url(./assets/customizableImage.png);
-  background-size: contain;
+  width: 350px;
 }
-.contentimg {
-  height: 100px;
-  width: 100px;
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.footer {
+  margin: 0 15%;
+  padding-bottom: 4%;
 }
